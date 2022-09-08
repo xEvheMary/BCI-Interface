@@ -1,0 +1,81 @@
+{
+	"QMainWindow":[
+		{
+			"tittle":"BCI",
+			"icon":":/icons-w/Icons-w/github.svg",
+			"frameless": true,
+			"transluscentBg": true,
+			"sizeGrip": "sizeGrip",
+			"shadow":[
+				{
+					"color": "#fff",
+					"blurRadius": 20,
+					"xOffset": 0,
+					"yOffset": 0,
+					"centralWidget": "centralwidget"
+				}
+			],
+			"navigation":[
+				{
+					"minimize":"minBtn",
+					"close": "closeBtn",
+					"restore":[
+						{	
+							"buttonName": "expBtn",
+							"normalIcon": ":/icons-w/Icons-w/maximize-2.svg",
+							"maximizedIcon": ":/icons-w/Icons-w/minimize-2.svg"
+						}
+					],
+					"moveWindow": "headerContainer",
+					"tittleBar": "headerContainer"
+				}
+			]
+		}
+	],
+	"QStackedWidget":[
+		{
+			"name":"mainPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"RTbtn1": "rt_stream",
+							"RTbtn2": "rt_class",
+							"RTbtn3": "rt_dunno",
+							"OFFbtn1": "off_ds",
+							"OFFbtn2": "off_model",
+							"OFFbtn3": "off_dunno",
+							"menuBtn": "home_sprite"
+						}
+					]
+				}
+			]
+	
+		}
+	],
+	"QPushButtonGroup": [{
+		"Buttons": [
+			"RTbtn1",
+			"RTbtn2",
+			"RTbtn3",
+			"OFFbtn1",
+			"OFFbtn2",
+			"OFFbtn3"
+		],
+		"Style":[{
+			"Active": "background-color: #1f232a;",
+			"NotActive": "background-color: transparent;"
+		}]
+	},
+	{
+		"Buttons": [
+			"cmdBtn1",
+			"cmdBtn2"
+		],
+		"Style":[{
+			"Active": "background-color: #2c313c;",
+			"NotActive": "background-color: #2c313c;"
+		}]
+	}
+	]
+}
